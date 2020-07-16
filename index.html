@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+BRAIN GAME
+</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+</script>
+<style>
+h1{
+	font-size:80px;
+	text-align:Left;
+	margin:50px 0px 0px 100px;
+	color:rgb(255,42,125)
+}
+p{background-color:rgb(122,233,50);
+max-width:240px;
+background:2px solid white;
+border-radius:5px;
+font-size:25px;
+text-align:left;
+padding:5px;
+margin:10px 0px 100px 380px
+}
+.head .logo{
+width:200px;
+height:200px;
+float:right;}
+.menu-bar
+ {background:rgb(255,191,0);
+ text-align:center;
+
+ }
+ .menu-bar ul
+ {
+	display: inline-flex;
+	list-style: none;
+	color:rgb(60, 60, 260);
+	}
+	
+ .menu-bar ul li
+ {
+	width:200px;
+	margin:15px;
+	padding:1px;
+	}
+ .menu-bar ul li a
+ { text-decoration:none;
+	  color:#fff;
+	
+ }
+  .active,.menu-bar ul li:hover{
+	  background: rgb(160,60,50);
+	border-radius: 3px;
+  }
+  .menu-bar .far-left{
+	  margin-right: 8px;
+  }  
+  .sub-menu-2{
+	  display:none;
+  }
+  .sub-menu-3{
+	  display:none;
+  }
+  .menu-bar ul li:hover .sub-menu-2{
+	  display:block;
+	  position:absolute;
+	  background:rgb(255,191,0);
+	  margin-top:15px;
+	  margin-left:-15px;
+  }
+  .menu-bar ul li:hover .sub-menu-3{
+	  display:block;
+	  position:absolute;
+	  background:rgb(255,191,0);
+	  margin-top:15px;
+	  margin-left:-15px;
+  }
+  .menu-bar ul li:hover .sub-menu-2 ul{
+	  display:block;
+	  margin:10px;
+  }
+  .menu-bar ul li:hover .sub-menu-2 ul li{
+	  width:150px;
+	  padding:10px;
+	  border-bottom:1px dotted #fff;
+	  background:transparent;
+	  border-radius:0;
+	  text-align:left;
+  }
+  .menu-bar ul li:hover .sub-menu-3 ul li:last-child{
+	  border-bottom:none;
+  }.menu-bar ul li:hover .sub-menu-3 ul{
+	  display:block;
+	  margin:10px;
+  }
+  .menu-bar ul li:hover .sub-menu-3 ul li{
+	  width:150px;
+	  padding:10px;
+	  border-bottom:1px dotted #fff;
+	  background:transparent;
+	  border-radius:0;
+	  text-align:left;
+  }
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child{
+		border-bottom:none;
+  }
+#first li {
+		display:inline-block;
+		margin:250px 100px 20px 150px;
+		border:1px solid white;
+		border-radius:8px
+}
+#first .ab{
+		
+		
+		margin-left: -145px ;
+		background-color:rgba(225,205,245,0.8);
+		font-size:20px;
+		color:black;
+		border:1px solid white;
+		border-radius:5px;
+		padding:5px
+	
+}
+#second li{
+		display:inline-block;
+		margin:100px 100px 20px 150Px;
+		border:1px solid white;
+		border-radius:8px
+}
+
+#second .ab{
+		
+		
+		margin-left: -145px ;
+		background-color:rgba(225,205,245,0.8);
+		font-size:20px;
+		color:black;
+		border:1px solid white;
+		border-radius:5px;
+		padding:5px
+	
+}
+
+.fill{
+		max-width:700px;
+		margin-top:50px ;
+		margin-left:300px;
+		margin-bottom:50px;
+		border:2px solid blue;
+		border-radius:20px;
+	}
+
+
+h2{font-size:25px;
+background-color:rgba(125,205,145,0.8)
+}
+
+
+.ex li{
+	display:inline-block;
+	margin:100px 0px 40px 280px;
+}
+.ex li~li{
+	display:inline-block;
+	margin:100px 0px 50px 40px;}
+
+
+</style>
+
+
+<body>
+<div>
+<div class="head">
+	<h1 class="first">BRAIN GAME</h1>
+	
+	<p> Learn while Playing</p>
+	</div class="logo">
+	<img src="https://lh3.googleusercontent.com/895bTHh420sg05DCYfeJA2eIZ6K1S-0C8l1CUQUL_N5UGYz3ZDnEpByq0Mgt40enb8oX">
+	</div>
+<div class="menu-bar">	
+	<ul>
+		<li class="active"><a href="#">HOME</a> <i class="fa fa-home" aria-hidden="true"></i></li>
+		<li><a href="#">About us</a>   <i class="fa fa-user" aria-hidden="true"></i>
+			<div class="sub-menu-3">
+				<ul>
+					<li><a href="#">Mission</a></li>
+					<li><a href="#">Visionision</a></li>
+					<li><a href="#">Team</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="#">Product</a>   <i class="fa fa-product-hunt" aria-hidden="true"></i>
+			<div class="sub-menu-2">
+				<ul>
+					<li><a href="#">PUZZLE</a></li>
+					<li><a href="#">MATCHING</a></li>
+					<li><a href="#">ROLL</a></li>
+				</ul>
+			</div></li>
+		<li><a href="#">Contact</a>   <i class="fa fa-phone" aria-hidden="true"></i></li>
+	</ul>
+</div>
+
+<div class="fill">
+	<form class="fm">
+		<pre>
+			<center><h2>Fill the Form </h2></center>
+	Enter Your Name 		<input type="text" placeholder="first name" > <input type="text" placeholder="last name"></br>
+	Enter Your DOB 			<input type="date">
+	Enter Your Gender		<input type="radio" name=r1>Male		<input type=radio name=r1>Female<br>
+	Enter Your Contact Number	 <input type="numeric"><br>
+	Enter your Address		<input type="text" placeholder="Flat,House no.,building,company"><br>
+					<input type="text" palceholder="Area, Colony,Street"><br>
+					<input type="text" placeholder="Landmark "><br>
+					<input type="text" placeholdet="Town/City"><br>
+	Enter Your State		<select name="state">
+			 <option value="Andaman and Nicobar Islands union territory">Andaman and Nicobar Islands union territory</option>
+  			 <option value="Andhra Pradesh">Andhra Pradesh</option>
+ 			 <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+  			 <option value="Assam">	Assam</option>
+			 <option value="Bihar">Bihar</option>
+ 			 <option value="Chandigarh union territory">Chandigarh union territory</option>
+ 			 <option value="Chhattisgarh">Chhattisgarh</option>
+  			 <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option> <option value="volvo">Volvo</option>
+			 <option value="National Capital Territory of Delhi ">National Capital Territory of Delhi </option>
+ 			 <option value="Goa">Goa</option>
+			 <option value="Gujarat">Gujarat</option> 
+			 <option value="Haryana">Haryana</option>
+  			 <option value="Himachal Pradesh">Himachal Pradesh</option>
+ 			 <option value="Jammu and Kashmir ">Jammu and Kashmir </option>
+ 			 <option value="Jharkhand">Jharkhand</option> 
+  		  	 <option value="Karnataka">Karnataka</option>
+ 			 <option value="Kerala">Kerala</option>
+ 			 <option value="Ladakh">Ladakh</option>
+ 			 <option value="Lakshadweep">Lakshadweep</option> 
+ 			 <option value="Madhya Pradesh">Madhya Pradesh</option>
+ 			 <option value="Maharashtra">Maharashtra</option>
+ 			 <option value="Manipur">Manipur</option>
+			 <option value="Meghalaya">Meghalaya</option>
+ 			 <option value="Mizoram">Mizoram</option>
+ 			 <option value="Nagaland">Nagaland</option>
+ 			 <option value="Odisha">Odisha</option>
+ 			 <option value="Puducherry ">Puducherry </option> 
+			 <option value="Punjab">Punjab</option>
+ 			 <option value="Rajasthan">Rajasthan</option>
+ 			 <option value="Sikkim">Sikkim</option>
+ 			 <option value="Tamil Nadu">Tamil Nadu</option>
+ 		 	 <option value="Telangana">Telangana</option>
+ 			 <option value="Tripura">Tripura</option> 
+			 <option value="Uttar Pradesh">Uttar Pradesh</option>
+ 			 <option value="Uttarakhand">Uttarakhand</option>
+ 			 <option value="West Bengal">West Bengal</option>
+  			</select>
+		<center> <input type= "submit" name="submit" ">
+		
+
+	</form>
+</div>
+
+
+<div id="first" >
+	<ul>
+		<li>
+		<img src = "https://images.unsplash.com/photo-1589779137147-3d388746b765?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" width=200px	height=200px>
+			<a class="ab" href="alpabet.html">Alphabet</a>
+		</li>
+	
+		<li>
+		<img src="https://images.unsplash.com/photo-1562343128-59e6fa1c7eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" width=200px height=200px>
+			<a class="ab" href="#">Counting</a>
+	</li>
+	
+	<li id="ims">	
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQA7AwTqjY7QRq1lX9-ztZ0V4AK0PRJT3dNN-vvm0SH0WKEodUo&usqp=CAU" width=200px height=200px>
+			<a class="ab" href="#">Varnamala</a>
+	</li>
+</div>
+
+
+<div class="ex">
+	<li>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGjIFLyW_hd8c1lWRXI5wUYKCn4NmXUt-XDkvB7ULxe2C4sZvJ&usqp=CAU" ></li>
+	<li>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM7902ebd9skrqrMcFXCKozIosueY_WsRSS9Mn0eXIpS6dIyTR&usqp=CAU"></li>
+</div>
+
+
+<div id="second">
+		<li id="ims">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvrKKLE7irrihG6WI-weUaThjlbWn7L3Gk49VTXMIegPA7y3T9&usqp=CAU" width=200px	height=200px>
+				<a class="ab" href="#">Fruits Name</a>
+		</li>
+	
+		<li id="ims">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1j7ghqjvzJF6QBfgtDHbcke2bNP0nLnScOGGa2s44MjYuVdip&usqp=CAU" width=200px height=200px>
+				<a class="ab" href="#">Animals Name</a>
+		</li>
+	
+		<li id="ims">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQiCxMszaxalpIi3KKkUNFlh4fVKIASelpJaJEfqXg_g2LxwTQj&usqp=CAU" width=200px height=200px>
+				<a class="ab" href="#">Colors</a>
+		</li>
+
+
+</div>
+</body>
+</html>
